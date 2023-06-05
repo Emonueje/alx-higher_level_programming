@@ -1,7 +1,7 @@
 README
 # Getting Started with higher level programming
 ---
-For the past three months, or four considering that I hade to defer. I have been learning 
+For the past three months, or four considering that I had to defer a month progress. I have been learning 
 software engineering concepts using the C programming language as the main language of instruction.
 After conquering the `gates of shell` I begin my `python hello world` project today.
 
