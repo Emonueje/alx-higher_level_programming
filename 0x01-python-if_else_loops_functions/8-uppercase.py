@@ -15,8 +15,3 @@ def uppercase(str):
     for c in str:
         print("{}".format(to_upper(c)), end="")
     print()
-
-
-
-uppercase("best")
-uppercase("Best School 98 Battery street")
