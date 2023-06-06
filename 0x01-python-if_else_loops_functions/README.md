@@ -39,7 +39,7 @@ myself so I can meet up with the above learning objectives
 12. Fizz Buzz
 13. Insert in sorted linked list
 
-I normally would have given a brief description of each of the tasks but, I am trying to conserve every-time
+I normally would have given a brief description of each of the task but, I am trying to conserve every-time
 I can because I simultaneously studying Electrical Engineering and I have semester exams comming up.
 
 There are 3 advanced task that I would unlock if I am able to finish up the mandatory task.
