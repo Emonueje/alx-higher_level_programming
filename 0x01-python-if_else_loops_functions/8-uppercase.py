@@ -5,6 +5,7 @@ def islower(c):
     else:
         return False
 
+
 def to_upper(c):
     if islower(c):
         return chr(ord(c) - 32)
