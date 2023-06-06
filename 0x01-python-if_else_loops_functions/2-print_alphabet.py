@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-alphabets = "abcdefghijklmnopqrstuvxyz"
-for alphabet in alphabets:
-    print(f"{alphabet}", end="")
+for alphabet in range(ord('a'), ord('z') + 1):
+    print(f"{chr(alphabet)}", end="")
