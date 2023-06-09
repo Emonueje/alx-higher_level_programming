@@ -7,7 +7,7 @@ if __name__ == "__main__":
     num_args = len(args)
 
     if num_args == 1:
-        print("{} argment:".format(1))
+        print("{} argument:".format(1))
         print("{}: {}".format(1, args[0]))
     elif num_args == 0:
         print("{} arguments.".format(0))
