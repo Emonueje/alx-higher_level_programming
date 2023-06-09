@@ -9,9 +9,10 @@ def add(a, b):
     Returns:
         The return value. a + b
     """
-    def good():
-        print("goof")
-
-
-    good()
     return (a + b)
+
+
+def good():
+    print("goof")
+
+good()
