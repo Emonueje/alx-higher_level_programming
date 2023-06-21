@@ -5,6 +5,6 @@ def simple_delete(a_dictionary, key=""):
     else:
         new_dict = {}
         for ki, val in a_dictionary.items():
-            if ki is not key:
+            if ki != key:
                 new_dict[ki] = val
         return new_dict
