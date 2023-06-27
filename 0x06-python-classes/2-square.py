@@ -7,8 +7,10 @@ class Square:
     """A class that defines a square"""
     def __init__(self, size=0):
         """initialization of the object"""
-        self.__size = size
-        if type(self.__size) is not int:
+        if not isinstance(size, int:
             raise TypeError("size must be an integer")
-        if (self.__size) < 0:
+        elif (size) < 0:
             raise ValueError("size must be >= 0")
+        else:
+            self.__size = size
+
