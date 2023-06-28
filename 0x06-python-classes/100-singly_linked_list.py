@@ -30,6 +30,8 @@ class Node:
         """ setter property for the next node """
         if value is not None and not isinstance(value, Node):
             raise TypeError("next_node must be a Node object")
+        else:
+            self.__next_node = value
 
 class SinglyLinkedList:
     """ A class that describes a singly linked list """
@@ -42,7 +44,7 @@ class SinglyLinkedList:
         new_node = Node(value)
         if not self.__head or self.__head.data >= value:
             new_node.next_node = self.__head
-            self._head = new_node
+            self.__head = new_node
         else:
             temp_node = self.__head
             tmp_node = temp_node.next_node
@@ -63,18 +65,3 @@ class SinglyLinkedList:
             if (temp):
                 all_str += "\n"
         return (all_str)
-
-
-sll = SinglyLinkedList()
-sll.sorted_insert(2)
-sll.sorted_insert(5)
-sll.sorted_insert(3)
-sll.sorted_insert(10)
-sll.sorted_insert(1)
-sll.sorted_insert(-4)
-sll.sorted_insert(-3)
-sll.sorted_insert(4)
-sll.sorted_insert(5)
-sll.sorted_insert(12)
-sll.sorted_insert(3)
-print(sll)
