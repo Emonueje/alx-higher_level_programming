@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" A module containing the object description\
+        for a linked list node and a linked list"""
+
 
 class Node:
     """ A class that defines the node of a singly linked list """
@@ -32,6 +35,7 @@ class Node:
             raise TypeError("next_node must be a Node object")
         else:
             self.__next_node = value
+
 
 class SinglyLinkedList:
     """ A class that describes a singly linked list """
