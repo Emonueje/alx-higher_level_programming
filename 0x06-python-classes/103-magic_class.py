@@ -3,9 +3,8 @@ import math
 
 
 class MagicClass:
-    """ Magic Class for description of the cirlce object """
-
-    def __init__(self, radius=0):
+    """Square. Attributes: just the radius  """
+    def __init__(self, radius):
         """ Initialization of the class """
         self.__radius = 0
         if type(radius) is not int and type(radius) is not float:
