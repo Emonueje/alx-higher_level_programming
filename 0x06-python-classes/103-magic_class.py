@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 """ Module that defines the magic class object """
-
-
 import math
+
+
 class MagicClass:
-    """Square. Attributes: just the radius  """
+    """Square. Attributes: just the radius"""
     def __init__(self, radius):
         """ Initialization of the class """
         self.__radius = 0
